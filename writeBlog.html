@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <Link rel="stylesheet" href="Assets/Style/style.css" />
+    <script src="https://use.fontawesome.com/240620a306.js"></script>
+    <script src="https://kit.fontawesome.com/4cd3ac8bb2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap" rel="stylesheet">
+    <title>BlogPost | Write bolg</title>
+</head>
+
+<body style="overflow-x: hidden;">
+
+</body>
+<!-- Header -->
+<div class="vh-100">
+    <div class="inner-head-1">
+        <div class="container">
+            <nav class="d-flex row align-items-center">
+                <div class="logo col-3">
+                    <ul class="d-flex p-3">
+                        <li class=""><a href="">LOGO</a></li>
+                    </ul>
+                </div>
+                <div class=" menu col-9 ">
+                    <div class="toggle d-flex"></div>
+                    <div class="inner-menu ">
+                        <ul class="d-flex justify-content-between">
+                            <li class="p-3"><a href="index.html">Home</a></li>
+                            <li class="p-3"><a href="writeBlog.html">Write Blogs</a></li>
+                            <li class="p-3"><a href="">About us</a></li>
+                            <li class="p-3"><a href="">Contact</a></li>
+                            <li class="p-3"><a href="">FAQ</a></li>
+                            <li class="p-3"><a class="px-lg-2 py-1" href="profile.html">Login</a> / <a class="px-2 py-1"
+                                    href="">Register</a></li>
+                            <li class="p-3"><span class="themeSwitch"></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="login col-3">
+                    <ul class="d-flex justify-content-evenly">
+                        <li class="ps-2 mt-3"><a href="">Login</a></li>
+                        <li class="ps-2 mt-3">/</li>
+                        <li class="ps-2 mt-3"><a href="">Register</a></li>
+                        <li class="ps-2 mt-3"><a href=""><i class="fa fa-sun-o" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div> -->
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Header -->
+
+<!-- write blog -->
+<div class="container mt-5 blog-write edit-settings">
+    <div class="row">
+        <div class="col-md-10 m-auto">
+            <div class="col-12">
+                <h3>Write Blog</h3>
+            </div>
+            <form action="submit" id="profile-form" class="mt-5">
+                <div class="col-12 m-auto p-2 inner-form">
+                    <input type="text" name="title" id="title" required="required">
+                    <label for="title">Title*</label>
+                </div>
+                <div class="row d-flex mt-5 align-items-center justify-content-center pic-choose">
+                    <div class="col-lg-3 col-md-6 choose-file d-flex justify-content-evenly ">
+                        <input type="button" value="choose file">
+                        <small>No file chosen</small>
+                    </div>
+                    <div class="col-lg-3 col-md-6 change-pic">
+                        <div class="btn1 d-block"><a href="">UPDATE PICTURE NOW</a></div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="btn1 d-block" type='submit'><a href="">DELETE</a></div>
+                    </div>
+                </div>
+                <div class="col-12 m-auto p-2 inner-form mt-5 blog-content">
+                    <textarea name="content" required="required" id="content"></textarea>
+                    <label for="content">Content*</label>
+                </div>
+                <div class="col-12 m-auto p-2 inner-form mt-5">
+                    <input type="text" name="autor" id="autor" required="required">
+                    <label for="autor">Autor*</label>
+                </div>
+                <div class="d-flex final-done">
+                    <div class="col-lg-3 m-auto p-2 inner-form">
+                        <div class="btn1 d-block" type='submit'><a href=""><button>DONE</button></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 m-auto p-2 inner-form">
+                        <div class="btn1 d-block" type='submit'><a href=""><button>CANCEL</button></a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- write blog -->
+
+<!-- Footer -->
+<footer class="container-fluid p-3">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-6 pe-2">
+                    <div>
+                        <h3><a href="">LOGO</a></h3>
+                        <h5>Read. Write. Publish.</h5>
+                        <p>We provide blog for free, you can write blog here whithout spending any
+                            penny
+                            & also can earn
+                            money by publishing blog on our portal. To undarstand how it works<a class="text-animate"
+                                href="">
+                                click
+                                here.</i>
+                            </a></p>
+                    </div>
+                </div>
+                <div class="col-6 pe-2">
+                    <div>
+                        <ul>
+                            <li>
+                                <h4>Follow Us</h4>
+                            </li>
+                            <li class="pb-2 linked"><a href=""><i class="fab fa-facebook"></i> Facebook</a></li>
+                            <li class="pb-2 linked"><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li class="pb-2 linked"><a href=""><i class="fab fa-twitter"></i> Twitter</a></li>
+                            <li class="linked"><a href=""><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-6 pe-2">
+                    <div>
+                        <ul>
+                            <li>
+                                <h4>Quik links</h4>
+                            </li>
+                            <li class="pb-2 linked"><a href="">About us</a></li>
+                            <li class="pb-2 linked"><a href="">Write Blogs</a></li>
+                            <li class="pb-2 linked"><a href="">Contact</a></li>
+                            <li class="linked"><a href="">Earn money</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 pe-2">
+                    <div>
+                        <ul>
+                            <li>
+                                <h4>Help and services</h4>
+                            </li>
+                            <li class="pb-2 linked"><a href="">Frequently Asked Questions</a></li>
+                            <li class="pb-2 linked"><a href="">Terms & Conditions</a></li>
+                            <li class="pb-2 linked"><a href="">Privacy Policy</a></li>
+                            <li class="linked"><a href="">Report & Payment issue</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="color: rgba(225, 225, 225, 0.479); height: 1px; ">
+    <div class="row aling-items-center">
+        <p class="text-center"><i class="far fa-copyright"></i>2021-All right are reserved</p>
+    </div>
+</footer>
+<!-- Footer -->
+
+<script src="assets/Scripts/script.js"></script>
+
+</html>
